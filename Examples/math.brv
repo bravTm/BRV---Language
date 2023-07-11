@@ -1,0 +1,17 @@
+# Example code on BRV language
+
+Log pow(10, 3) * exp(10)
+Log root(1000, 4) * 3
+Log log10(10000) + 200
+
+
+
+# All Math Functions on BRV
+# - pow(double, int)
+# - root(double, double)
+# - log10(int)
+# - ceil(double) and floor(double)
+# - factorial(int)
+# - log2(int)
+# - abs(double)
+# - exp(double)

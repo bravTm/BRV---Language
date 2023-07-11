@@ -1,0 +1,22 @@
+# Example code on BRV 
+
+$string => input("Enter any string ")
+
+for $i => 0 to len(@string) - 1 step 1 do 
+    Log @string[@i]
+endfor
+
+
+# OR 
+
+# @i == len(@string)
+
+# Reverse string
+while @i > 0 then
+  Log @string[@i]
+  $i => @i - 1
+endwhile
+
+
+Log "HELLO".reverse + " I AM".to_lower + " a programmer".to_upper
+# Output: OLLEH i am A PROGRAMMER
